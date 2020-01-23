@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{525A6665-29C6-494B-A7A9-EE36D809CF0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "WebApplication\WebApplication.csproj", "{525A6665-29C6-494B-A7A9-EE36D809CF0F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{6BAFD3AD-AA76-407D-9250-0FCE04F41672}"
 EndProject
@@ -13,27 +13,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{26
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B414891D-FF9A-42A0-A839-163E21132104}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Entities", "Domain.Entities\Domain.Entities.csproj", "{7669C1C6-D078-4C9A-B98E-5DE6DA8C1224}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Entities", "Domain.Entities\Domain.Entities.csproj", "{7669C1C6-D078-4C9A-B98E-5DE6DA8C1224}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Interfaces", "Domain.Interfaces\Domain.Interfaces.csproj", "{E2AFB257-4F7E-4DB7-BE27-8FA78719B0F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Interfaces", "Domain.Interfaces\Domain.Interfaces.csproj", "{E2AFB257-4F7E-4DB7-BE27-8FA78719B0F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Interfaces.FSW.Users", "Services.Interfaces\Services.Interfaces.FSW.Users.csproj", "{B2C1B8C4-9406-4A6F-AB1F-155DA3F8F733}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Interfaces.FSW.Users", "Services.Interfaces\Services.Interfaces.FSW.Users.csproj", "{B2C1B8C4-9406-4A6F-AB1F-155DA3F8F733}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceInterfaces", "ServiceInterfaces", "{26DB8CEC-FE4E-4A31-A54A-51DA71ADFF38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.FSW.Users", "Services.Users\Services.FSW.Users.csproj", "{86EFAEBA-C14A-4A63-B421-080DBCBA1528}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.FSW.Users", "Services.Users\Services.FSW.Users.csproj", "{86EFAEBA-C14A-4A63-B421-080DBCBA1528}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Data.FSW", "Infrastructure.Data.FSW\Infrastructure.Data.FSW.csproj", "{2F781EE2-71EF-44CB-83D8-5C7D080C41E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Data.FSW", "Infrastructure.Data.FSW\Infrastructure.Data.FSW.csproj", "{2F781EE2-71EF-44CB-83D8-5C7D080C41E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Data.W4", "Infrastructure.Data.W4\Infrastructure.Data.W4.csproj", "{625028E3-6AD0-4B94-AEDE-0DF70F0F93BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Data.W4", "Infrastructure.Data.W4\Infrastructure.Data.W4.csproj", "{625028E3-6AD0-4B94-AEDE-0DF70F0F93BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.A1HR.Construction", "Services.A1HR.Construction\Services.A1HR.Construction.csproj", "{7260135A-FCFD-4A8B-B6E8-4ABF59F483C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.A1HR.Construction", "Services.A1HR.Construction\Services.A1HR.Construction.csproj", "{7260135A-FCFD-4A8B-B6E8-4ABF59F483C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Interfaces.A1HR.Construction", "Services.Interfaces.A1HR.Construction\Services.Interfaces.A1HR.Construction.csproj", "{E2B858CA-C5BC-4400-A430-9E20C9365F3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Interfaces.A1HR.Construction", "Services.Interfaces.A1HR.Construction\Services.Interfaces.A1HR.Construction.csproj", "{E2B858CA-C5BC-4400-A430-9E20C9365F3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FB08BDB0-958F-45B5-AA23-CD87F703D4A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Services.A1HR.Construction", "Tests.Services.A1HR.Construction\Tests.Services.A1HR.Construction.csproj", "{1BE6C1C5-FAF6-4D95-BC15-C425234DFD30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Services.A1HR.Construction", "Tests.Services.A1HR.Construction\Tests.Services.A1HR.Construction.csproj", "{1BE6C1C5-FAF6-4D95-BC15-C425234DFD30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices", "{1549EEAF-F956-4FBD-BA7C-A6BE2E968A36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
