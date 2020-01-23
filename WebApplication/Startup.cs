@@ -1,3 +1,5 @@
+using Domain.Interfaces.Repositories;
+using Infrastructure.Data.FSW;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -5,6 +7,8 @@ using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Services.A1HR.Construction;
+using Services.Interfaces.A1HR.Construction;
 
 namespace WebApplication
 {
@@ -26,6 +30,10 @@ namespace WebApplication
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+
+            // Dependency Injection
+            services.AddSingleton<IConstructionRepository, ConstructionRepository>();
+            services.AddSingleton<IConstructionService, ConstructionService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

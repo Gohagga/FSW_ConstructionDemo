@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Domain.Interfaces\Domain.Interfaces.csproj" />
     <ProjectReference Include="..\Services.Interfaces.A1HR.Construction\Services.Interfaces.A1HR.Construction.csproj" />
   </ItemGroup>
 
